@@ -1,0 +1,217 @@
+.nav {
+  height: 2rem;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 29%;
+  background-color: transparent;
+  /* height: 20vh; */
+  width: 30vw;
+}
+
+.card-header {
+  background-color: transparent;
+  height: 10%;
+}
+
+.card-header-angebot {
+  background-color: transparent;
+  height: 10%;
+  transform: rotate(-30deg);
+  font-family: var(--font-family-1);
+  color: var(--text-color);
+  text-shadow: 2px 2px var(--text-color-special-2);
+}
+
+.card-number {
+  position: relative;
+  background-color: rgb(204, 27, 27);
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 30px 10px;
+  width: fit-content;
+  color: white;
+  height: 1rem;
+  top: 5px;
+  left: 5%;
+  font-family: var(--font-family-1);
+}
+
+.card-image {
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  height: 60%;
+}
+
+.card-footer {
+  height: 30%;
+  background-color: transparent;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+  gap: 0.2rem;
+  font-family: var(--font-family-1);
+  height: 100%;
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+.card-ingredients {
+  color: var(--text-color);
+  font-size: 0.5rem;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 0.8rem;
+  /* transform: rotate(-45deg); */
+}
+
+.card-price::after {
+  content: "€";
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-img3 {
+  width: 30vw;
+}
+
+.card-img2 {
+  max-width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .card {
+    flex-basis: 22%;
+  }
+
+  .card-img2 {
+    width: 40%;
+  }
+
+  .card-img3 {
+    width: 30%;
+  }
+
+  .card-number {
+    font-size: 1rem;
+    padding: 8px;
+    height: 1.2rem;
+  }
+
+  .card-header-angebot {
+    font-size: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+
+  .card-ingredients {
+    font-size: 0.7rem;
+  }
+
+  .card-price {
+    font-size: 1rem;
+  }
+
+  .card-header-angebot {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .card {
+    flex-basis: 18%;
+    height: 40vh;
+  }
+
+  .card2 {
+    scale: 0.8;
+  }
+
+  .card-header-angebot {
+    font-size: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-ingredients {
+    font-size: 1.1rem;
+  }
+
+  .card-price {
+    font-size: 1.2rem;
+  }
+
+  .card-number {
+    font-size: 1.2rem;
+    padding: 10px;
+    height: 1.5rem;
+  }
+
+  .card-header-angebot {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .card-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

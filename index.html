@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria Luigi Uno</title>
+
+    <link rel="stylesheet" href="special.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#about" class="nav-item">Über Uns</a>
+      <a href="#" class="nav-item" onclick="showMenue()">Speise<wbr />karten</a>
+      <div id="menue" class="menue-off">
+        <a href="speisekarte.html" target="_blank"
+          ><img
+            src="./images/menu-pizza-1.png"
+            alt="Menue Pizza"
+            class="img-menue"
+            onclick="showMenue()"
+          />
+        </a>
+        <a href="weinkarte.html" target="_blank">
+          <img
+            src="./images/menue-wein.png"
+            alt="Menue Wein"
+            class="img-menue-2"
+            onclick="showMenue()"
+          />
+        </a>
+        <a href="eiskarte.html" target="_blank">
+          <img
+            src="./images/menu-eis-2.png"
+            alt="Menue Pizza"
+            class="img-menue-3"
+            onclick="showMenue()"
+          />
+        </a>
+      </div>
+      <a href="#info" class="nav-item">Öffungs<wbr />zeiten</a>
+    </nav>
+
+    <section class="hero">
+      <h1 class="title">
+        Pizzeria<span class="inside"><br />Luigi</span> Uno
+      </h1>
+      <p class="subtitle">Orginal 🇮🇹 italienische Küche aus Verona</p>
+      <a href="#info" class="hero-action button">Öffungszeiten ansehen</a>
+    </section>
+    <section id="about" class="about container">
+      <div class="about-content">
+        <h2 class="heading">Über uns</h2>
+        <p class="about-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+          numquam est expedita, architecto eligendi neque inventore
+          necessitatibus nobis quam nostrum tempora incidunt cumque repudiandae
+          consectetur.
+
+          <br />
+          <br />
+
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+          numquam est expedita, architecto eligendi neque inventore
+          necessitatibus nobis quam nostrum tempora incidunt cumque repudiandae
+          consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Praesentium numquam est expedita, architecto eligendi neque inventore
+          necessitatibus nobis quam nostrum tempora incidunt cumque repudiandae
+          consectetur.
+
+          <br />
+        </p>
+        <a href="speisekarte.html" class="about-action button"
+          >Zur Speisekarte</a
+        >
+      </div>
+      <div class="about-images">
+        <img
+          src="./images/about-1.jpg"
+          alt="Trattoria Eingang "
+          class="about-image about-image-large"
+        />
+        <div class="about-image-small">
+          <img
+            src="./images/about-2.jpg"
+            alt="Trattoria Spaß"
+            class="about-image"
+          />
+          <img
+            src="./images/about-3.jpg"
+            alt="Trattoria Pizza"
+            class="about-image"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="info" class="info-wrapper">
+      <div class="info container">
+        <h2 class="heading">Öffungszeiten</h2>
+        <div class="time-period">
+          <p class="time-period-daily">
+            <span class="day">Mo.</span>
+            <span class="time">Ruhetag</span>
+          </p>
+          <p class="time-period-daily">
+            <span class="day">Di.</span>
+            <span class="time">18:00-23:00</span>
+          </p>
+          <p class="time-period-daily">
+            <span class="day">Mi.</span>
+            <span class="time">18:00-23:00</span>
+          </p>
+          <p class="time-period-daily">
+            <span class="day">Do.</span>
+            <span class="time">18:00-23:00</span>
+          </p>
+          <p class="time-period-daily">
+            <span class="day">Fr.</span>
+            <span class="time">18:00-02:00</span>
+          </p>
+          <p class="time-period-daily time-weekend">
+            <span class="day">Sa.</span>
+            <span class="time">18:00-03:00</span>
+          </p>
+          <p class="time-period-daily time-weekend">
+            <span class="day">So.</span>
+            <span class="time">18:00-23:00</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact container">
+      <div class="contact-content">
+        <img
+          src="./images/contact.jpg"
+          alt="Herzlich Willkommen"
+          class="contact-image"
+        />
+        <div class="contact-details">
+          <h2 class="heading">Kontakt</h2>
+          <p class="contact-detail">01234 567888</p>
+          <p class="contact-detail">info@pizza.de</p>
+          <p class="contact-detail">Musterstraße 1</p>
+          <p class="contact-detail">12345 Muster-City</p>
+          <div class="contact-actions">
+            <a href="tel:011155236658" class="button">Jetzt anrufen!</a>
+            <a href="mailto:info@pizza.de" class="button-inverted"
+              >Email schreiben</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="#" class="footer-item">Impressum</a>
+        <a href="#" class="footer-item">Datenschutzerklärung</a>
+        <a href="#" class="footer-item">Jobs</a>
+      </div>
+      <p class="footer-copyright">&copy;2024 DevKarriere.de / stiehle.de</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
