@@ -34,13 +34,12 @@
   height: 10%;
 }
 
-.card-header-angebot {
+.card-header-offer {
   background-color: transparent;
-  height: 10%;
   transform: rotate(-30deg);
   font-family: var(--font-family-1);
-  color: var(--text-color);
-  text-shadow: 2px 2px var(--text-color-special-2);
+  color: var(--text-color-special-2);
+  text-shadow: 2px 2px var(--text-color-special-1);
 }
 
 .card-number {
@@ -147,9 +146,9 @@
     height: 1.2rem;
   }
 
-  .card-header-angebot {
-    font-size: 1.5rem;
-  }
+  /* .card-header-offer {
+    font-size: 2rem;
+  } */
 
   .card-title {
     font-size: 0.8rem;
@@ -163,7 +162,7 @@
     font-size: 1rem;
   }
 
-  .card-header-angebot {
+  .card-header-offer {
     font-size: 1rem;
   }
 }
@@ -183,9 +182,9 @@
     scale: 0.8;
   }
 
-  .card-header-angebot {
-    font-size: 1.5rem;
-  }
+  /* .card-header-offer {
+    font-size: 2rem;
+  } */
 
   .card-title {
     font-size: 1.2rem;
@@ -205,7 +204,7 @@
     height: 1.5rem;
   }
 
-  .card-header-angebot {
+  .card-header-offer {
     font-size: 2rem;
   }
 }

@@ -10,35 +10,46 @@
   </head>
   <body>
     <nav class="nav">
-      <a href="#about" class="nav-item">Über Uns</a>
-      <a href="#" class="nav-item" onclick="showMenue()">Speise<wbr />karten</a>
-      <div id="menue" class="menue-off">
-        <a href="speisekarte.html" target="_blank"
-          ><img
-            src="./images/menu-pizza-1.png"
-            alt="Menue Pizza"
-            class="img-menue"
-            onclick="showMenue()"
-          />
-        </a>
-        <a href="weinkarte.html" target="_blank">
-          <img
-            src="./images/menue-wein.png"
-            alt="Menue Wein"
-            class="img-menue-2"
-            onclick="showMenue()"
-          />
-        </a>
-        <a href="eiskarte.html" target="_blank">
-          <img
-            src="./images/menu-eis-2.png"
-            alt="Menue Pizza"
-            class="img-menue-3"
-            onclick="showMenue()"
-          />
-        </a>
+      <div class="center">
+        <div class="nav-group">
+          <a href="#about" class="nav-item">Über Uns</a>
+          <a href="#" class="nav-item" onclick="showMenue()"
+            >Speise<wbr />karten</a
+          >
+          <a href="#info" class="nav-item">Öffungs<wbr />zeiten</a>
+        </div>
+
+        <div id="menu-wrapper" class="menu-wrapper-off">
+          <a href="speisekarte.html" target="_blank"
+            ><img
+              src="./images/menu-pizza-1.png"
+              alt="Menue Pizza"
+              class="img-menu"
+              onclick="showMenue()"
+            />
+          </a>
+          <a href="weinkarte.html" target="_blank">
+            <img
+              src="./images/menue-wein.png"
+              alt="Menue Wein"
+              class="img-menu-2"
+              onclick="showMenue()"
+            />
+          </a>
+          <a href="eiskarte.html" target="_blank">
+            <img
+              src="./images/menu-eis-2.png"
+              alt="Menue Pizza"
+              class="img-menu-3"
+              onclick="showMenue()"
+            />
+          </a>
+
+          <a class="nav-item" href="speisekarte.html" target="_blank">Pizza</a>
+          <a class="nav-item" href="speisekarte.html" target="_blank">Wein</a>
+          <a class="nav-item" href="speisekarte.html" target="_blank">Eis</a>
+        </div>
       </div>
-      <a href="#info" class="nav-item">Öffungs<wbr />zeiten</a>
     </nav>
 
     <section class="hero">
@@ -71,8 +82,8 @@
           <br />
         </p>
         <a href="speisekarte.html" class="about-action button"
-          >Zur Speisekarte</a
-        >
+          >Zur Speisekarte
+        </a>
       </div>
       <div class="about-images">
         <img
@@ -145,8 +156,8 @@
           <div class="contact-actions">
             <a href="tel:011155236658" class="button">Jetzt anrufen!</a>
             <a href="mailto:info@pizza.de" class="button-inverted"
-              >Email schreiben</a
-            >
+              >Email schreiben
+            </a>
           </div>
         </div>
       </div>
